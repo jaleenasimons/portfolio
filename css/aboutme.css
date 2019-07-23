@@ -1,0 +1,110 @@
+html {
+	margin-top: 38px;
+	height: 100%;
+}
+
+
+body {
+    background-color: #FFF8E5;
+    margin: 0;
+	padding: 0;
+	background-color:#FFF8E5;
+	overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 350px;
+    height: 520px;
+    margin-top: 65px;
+}
+
+h1{
+   font-family: 'Playfair Display', serif;
+	font-weight: 700;
+    font-size: 40px; 
+    margin-top: 50px;
+    margin-left: 7.5vw;
+}
+
+p{
+      	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+    font-size: 17px;
+    width: 700px;
+    margin-left: 7.5vw;
+    margin-right: 10.6vw;
+    margin-top: 50px;
+}
+
+div {
+    position: absolute;
+    height: 520px;
+    width: 350px;
+    margin-top: 12vh;
+    margin-left: 64vw;
+    background-color: #FFEEBF;
+
+    z-index: -100;
+}
+
+
+
+/*************** HEADER ********************/
+
+header {
+    margin-top: -50px;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+.nav > img {
+    margin-left: 8vw;
+    margin-right: 58vw;
+    width: 32px;
+    height: 30px;
+
+}
+
+.nav > a {
+    text-decoration-line: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #707070;
+    width: 35px;
+    font-size: 18px;
+
+}
+
+a:nth-of-type(1) {
+    margin-right: 4vw;
+    cursor: pointer;
+
+}
+
+a:nth-of-type(2) {
+     margin-right: 4vw;
+    cursor: pointer;
+
+}
+
+a:nth-of-type(3) {
+    cursor: pointer;
+}
+
+section > a:hover {
+    
+    color: #B50000;
+    cursor: pointer;
+
+}
+
+section > a:active {
+    color: #B50000;
+    cursor: pointer;
+}
